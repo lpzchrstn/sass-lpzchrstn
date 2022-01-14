@@ -4,8 +4,8 @@ export default {
   input: './src/js/scripts.js',
   output: {
     file: './dist/js/bundle.js',
-    format: 'cjs',
     banner: '/* eslint-disable */',
+    format: 'cjs',
   },
   plugins: [
     babel({
