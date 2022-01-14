@@ -5,6 +5,7 @@ export default {
   output: {
     file: './dist/js/bundle.js',
     format: 'cjs',
+    banner: '/* eslint-disable */',
   },
   plugins: [
     babel({
